@@ -20,9 +20,11 @@ Version 1 of this theme supports:
 - Game Boy Color
 - Sega Genesis / Megadrive
 - NES
+- PC Engine / TurboGraphix16
 - Neo Geo Pocket Color
 - PlayStation
 - SNES
+- Ports
 
 There is also support for the RetroPie menu. Feel free to leave any issues about consoles you would like supported.
 
