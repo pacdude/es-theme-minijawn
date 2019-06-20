@@ -49,7 +49,20 @@ Or, you can download as a ZIP file, unzip the thing, then stick the minijawn fol
 ## Suggested Settings
 In Emulation Stations' UI settings, I would set Carousel Transitions to ON, Transition Style to Fade, Gamelist View Style to Detailed, and On-Screen Help to OFF.
 
+## Home Page Full Screen
+
+![MiniJawn 1.2 Full Screen](https://i.imgur.com/7J0JrHQ.png "MiniJawn Full Screen")
+
+If you'd like a full-screen experience, edit line 12 of the `theme.xml` file from
+
+`<include>./home.xml</include>`
+
+to say 
+
+`	<include>./home_full.xml</include>`
+
 ## Changelog
+1.2: Added a Full-Screen Option.
 
 1.1: Theme now has a fallback for logos that don't exist. It's not great but it works. Ports, Final Burn Alpha, PCEngine and TurboGraphix16 now have support for icons and marquees.
 
