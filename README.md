@@ -1,4 +1,4 @@
-# MiniJawn 1.0
+# MiniJawn
 A theme for EmulationStation specifically designed for small screens (like the RetroFlag GPi Case). 
 
 ![MiniJawn 1.0 Title Screen](https://c10.patreonusercontent.com/3/eyJwIjoxfQ%3D%3D/patreon-media/p/post/27746437/a62326ef3c034d24a4cbb4f080ca2dc0/1.jpeg?token-time=1562112000&token-hash=b8XWjP5zZAkBGBuVzrvAsTvqQCIIKMuUzwJgfdkmu2c%3D "MiniJawn 1.0 Title Screen")
