@@ -61,6 +61,7 @@ license:        creative commons CC-BY-NC-SA
         <image name="logo">
             <path>./${system.theme}/icon.png</path>
 			<zIndex>3</zIndex>
+			<default>./images/iconblank.png</default>
         </image>
     </view>
     <view name="basic">
@@ -78,6 +79,11 @@ license:        creative commons CC-BY-NC-SA
             <size>1 .15</size>
 			<zIndex>3</zIndex>
         </image>
+        <image name="md_image" extra="true">
+            <maxSize>1 .383</maxSize>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+        </image>
         <text name="title" extra="true">
 			<text>${system.fullName}</text>
 			<alignment>center</alignment>
@@ -88,16 +94,17 @@ license:        creative commons CC-BY-NC-SA
 			<color>FFFFFF</color>
 			<fontSize>.05</fontSize>
         </text>
-        <textlist name="gamelist">
-            <pos>.04 .155</pos>
-            <size>.92 .787</size>
-            <fontPath>./images/fonts/au.otf</fontPath>
-            <selectorColor>00000000</selectorColor>
-            <selectedColor>FFFFFF</selectedColor>
-            <primaryColor>585858</primaryColor>
-            <alignment>left</alignment>
-			<fontSize>.06</fontSize>
-        </textlist>
+	    <textlist name="gamelist">
+	      <pos>.04 .155</pos>
+	      <size>.92 .787</size>
+	      <fontPath>./images/fonts/au.otf</fontPath>
+		  <selectorColor>00000000</selectorColor>
+		  <selectedColor>FFFFFF</selectedColor>
+  		  <secondaryColor>44757B</secondaryColor>
+		  <primaryColor>383838</primaryColor>
+		  <alignment>left</alignment>
+		  <fontSize>.06</fontSize>
+	  </textlist>
 	</view>
 	 <view name="detailed">
          <image name="background" extra="true">
