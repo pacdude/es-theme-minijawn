@@ -46,3 +46,8 @@ Or, you can download as a ZIP file, unzip the thing, then stick the minijawn fol
 ## Suggested Settings
 In Emulation Stations' UI settings, I would set Carousel Transitions to ON, Transition Style to Fade, Gamelist View Style to Detailed, and On-Screen Help to OFF.
 
+## Changelog
+
+1.1: Theme now has a fallback for logos that don't exist. It's not great but it works. Ports, Final Burn Alpha, PCEngine and TurboGraphix16 now have support for icons and marquees.
+
+1.0: Initial Release
