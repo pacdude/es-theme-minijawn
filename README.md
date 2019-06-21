@@ -10,18 +10,20 @@ MiniJawn is a small theme I put together to have a nice-looking theme for my Ret
 
 ## Supported Consoles
 Version 1 of this theme supports:
-- MAME/Arcade
+- Arcade/Mame
 - Atari 2600
 - Atari 5200
 - Atari 7800
+- Dreamcast
 - Game Gear
 - Game Boy
 - Game Boy Advance
 - Game Boy Color
-- Sega Genesis / Megadrive
+- Megadrive / Genesis
 - NES
-- PC Engine / TurboGraphix16
 - Neo Geo Pocket Color
+- Nintendo 64
+- PC Engine / TurboGraphix16
 - PlayStation
 - SNES
 - Ports
