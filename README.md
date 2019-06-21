@@ -19,6 +19,7 @@ Version 1 of this theme supports:
 - Game Boy
 - Game Boy Advance
 - Game Boy Color
+- Sega Master System
 - Megadrive / Genesis
 - NES
 - Neo Geo Pocket Color
