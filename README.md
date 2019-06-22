@@ -15,6 +15,7 @@ Version 1 of this theme supports:
 - Atari 5200
 - Atari 7800
 - Dreamcast
+- Famicom Disk System
 - Game Gear
 - Game Boy
 - Game Boy Advance
