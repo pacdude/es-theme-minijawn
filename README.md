@@ -27,6 +27,7 @@ Version 1 of this theme supports:
 - Nintendo 64
 - PC Engine / TurboGraphix16
 - PlayStation
+- PlayStation Portable
 - SNES
 - Ports
 
