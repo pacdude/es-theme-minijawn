@@ -10,10 +10,12 @@ MiniJawn is a small theme I put together to have a nice-looking theme for my Ret
 
 ## Supported Consoles
 Version 1 of this theme supports:
+- Amiga
 - Arcade/Mame
 - Atari 2600
 - Atari 5200
 - Atari 7800
+- Commodore 64
 - Dreamcast
 - Famicom Disk System
 - Game Gear
