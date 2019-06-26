@@ -8,8 +8,21 @@ MiniJawn is a small theme I put together to have a nice-looking theme for my Ret
 
 ![MiniJawn 1.0 Collage](https://preview.redd.it/nq9uypzhsi531.png?width=960&crop=smart&auto=webp&s=e3635d75cbaab23a8ed079357b3e74b5e5a4600e "MiniJawn 1.0 Collage")
 
-## Supported Consoles
-Version 1 of this theme supports:
+## Installation Instructions
+SSH into your Pi, or exit Emulation Station to the command prompt. Type the following lines, one at a time:
+
+`cd /opt/retropie/configs/all/emulationstation/`
+
+`mkdir themes`
+
+`cd themes`
+
+`git clone https://github.com/pacdude/minijawn.git`
+
+Or, you can download as a ZIP file, unzip the thing, then stick the minijawn folder in /configs/all/emulationstation/themes. (If that folder doesn't exist, create it.)
+
+## Supported Consoles & Collections
+Version 1.5 of this theme supports:
 - Amiga
 - Arcade/Mame
 - Atari 2600
@@ -33,31 +46,38 @@ Version 1 of this theme supports:
 - SNES
 - Ports
 
-There is also support for the RetroPie menu. Feel free to leave any issues about consoles you would like supported.
+- Retropie Menu
+- Auto Collection: All Games
+- Auto Collection: Last Played
+- Auto Collection: Favorites
+- User-Defined Custom Collections
+- Custom Collection: Super Mario (mario)
+- Custom Collection: Sonic the Hedgehog (sonic)
+- Custom Collection: Pokemon (pokemon)
+- Custom Collection: The Legend of Zelda (zelda)
+- Custom Collection: Tetris (tetris)
+- Custom Collection: Game Shows (gameshows)
+
+## Add a Custom Collection
+![MiniJawn 1.5 Custom Collection](https://i.imgur.com/0aH2ICO.png "MiniJawn 1.5 Custom Collection")
+
+There are 6 custom collections supported by MiniJawn, with more coming upon request. To add them to your EmulationStation install, follow these directions:
+
+1. Press `Start` on your device to bring up the EmulationStation Main Menu. 
+2. Select __Game Collection Settings__.
+3. Select __Create New Custom Collection from Theme__.
+4. Select the custom collection you want to install.
+5. Filter through your games list and press the Y button to add a game to the collection.
+6. After adding the games you want in your collection, you can finish editing the collection by either going to any game list, pressing `Select` and selecting __Finish Editing Collection__, or going to __Game Collections Settings__ menu and then select __Finish Editing Collection__.
 
 ## Not Implemented Yet
-- Grid mode is not implemented yet. Once I understand how it works a little more, I'll do something with it, I guess.
-- I'm trying to figure out a graceful fallback method in the event there's something you've installed that the theme doesn't support yet. It's not going well so far.
+- Grid mode is not implemented yet. Once I understand how it works a little more, I'll do something with it, I guess.\
 - I haven't tried this theme out on a screen resolution larger than 320x240. The theme's raw files are designed at 320x240 right now. I guarantee it will look like ass on a larger display. I may spruce it up in a future update.
-
-## Installation Instructions
-SSH into your Pi, or exit Emulation Station to the command prompt. Type the following lines, one at a time:
-
-`cd /opt/retropie/configs/all/emulationstation/`
-
-`mkdir themes`
-
-`cd themes`
-
-`git clone https://github.com/pacdude/minijawn.git`
-
-Or, you can download as a ZIP file, unzip the thing, then stick the minijawn folder in /configs/all/emulationstation/themes. (If that folder doesn't exist, create it.)
 
 ## Suggested Settings
 In Emulation Stations' UI settings, I would set Carousel Transitions to ON, Transition Style to Fade, Gamelist View Style to Detailed, and On-Screen Help to OFF.
 
 ## Home Page Full Screen
-
 ![MiniJawn 1.2 Full Screen](https://i.imgur.com/7J0JrHQ.png "MiniJawn Full Screen")
 
 If you'd like a full-screen experience, edit line 12 of the `theme.xml` file from
@@ -66,10 +86,23 @@ If you'd like a full-screen experience, edit line 12 of the `theme.xml` file fro
 
 to say 
 
-`	<include>./home_full.xml</include>`
+`<include>./home_full.xml</include>`
+
+## Screenshot-Friendly Detailed Screen
+![MiniJawn 1.5 Screenshot Detailed List](https://i.imgur.com/fzkX2Gm.png "MiniJawn Detailed List")
+
+If you've scraped screenshots, this view is going to look great on the small screen. Edit line 15 of the `theme.xml` file from
+
+`<include>./detailed.xml</include>`
+
+to say
+
+`<include>./detailed_more.xml</include>`
 
 ## Changelog
-1.2: Added a Full-Screen Option.
+1.5: Detailed Screenshot-Friendly Mode and Custom Collections added.
+
+1.2: Added a Full-Screen Option, as well as more consoles.
 
 1.1: Theme now has a fallback for logos that don't exist. It's not great but it works. Ports, Final Burn Alpha, PCEngine and TurboGraphix16 now have support for icons and marquees.
 
