@@ -43,7 +43,7 @@ Version 1.5 of this theme supports:
 - PC Engine / TurboGraphix16
 - PlayStation
 - PlayStation Portable
-- SNES
+- SNES / Super Famicom
 - Ports
 
 - Retropie Menu
