@@ -1,7 +1,7 @@
 # MiniJawn
 A theme for EmulationStation specifically designed for small screens (like the RetroFlag GPi Case). 
 
-![MiniJawn 1.0 Title Screen](https://c10.patreonusercontent.com/3/eyJwIjoxfQ%3D%3D/patreon-media/p/post/27746437/a62326ef3c034d24a4cbb4f080ca2dc0/1.jpeg?token-time=1562112000&token-hash=b8XWjP5zZAkBGBuVzrvAsTvqQCIIKMuUzwJgfdkmu2c%3D "MiniJawn 1.0 Title Screen")
+![MiniJawn 1.0 Title Screen](https://i.imgur.com/hpfxnKr.jpg "MiniJawn 1.0 Title Screen")
 
 ## About
 MiniJawn is a small theme I put together to have a nice-looking theme for my RetroFlag GPi. The screen is small and not that high-definition, so having a big, bold UI was a must. And since this is running on a Raspberry Pi Zero, I didn't feel like doing a whole lot. View more images at [my Patreon page](https://www.patreon.com/posts/27746437).
