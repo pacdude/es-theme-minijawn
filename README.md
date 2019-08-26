@@ -22,7 +22,7 @@ SSH into your Pi, or exit Emulation Station to the command prompt. Type the foll
 Or, you can download as a ZIP file, unzip the thing, then stick the minijawn folder in /configs/all/emulationstation/themes. (If that folder doesn't exist, create it.)
 
 ## Supported Consoles & Collections
-Version 1.5 of this theme supports:
+Version 1.8 of this theme supports:
 - Amiga
 - Arcade/Mame
 - Atari 2600
