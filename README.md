@@ -29,23 +29,30 @@ Version 1.5 of this theme supports:
 - Atari 5200
 - Atari 7800
 - Commodore 64
+- Daphne
 - Dreamcast
 - Famicom Disk System
 - Game Gear
 - Game Boy
 - Game Boy Advance
 - Game Boy Color
+- Game and Watch
+- Sega CD / Mega CD
 - Sega Master System
+- SG-1000
 - Megadrive / Genesis
 - NES
+- Neo Geo
 - Neo Geo Pocket Color
 - Nintendo 64
-- PC Engine / TurboGraphix16
+- PC Engine / TurboGrafx16
+- PC Engine CD / TurboGrafx CD
+- Pico-8
 - PlayStation
 - PlayStation Portable
+- ScummVM
 - SNES / Super Famicom
 - Ports
-
 - Retropie Menu
 - Auto Collection: All Games
 - Auto Collection: Last Played
@@ -71,7 +78,7 @@ There are 6 custom collections supported by MiniJawn, with more coming upon requ
 6. After adding the games you want in your collection, you can finish editing the collection by either going to any game list, pressing `Select` and selecting __Finish Editing Collection__, or going to __Game Collections Settings__ menu and then select __Finish Editing Collection__.
 
 ## Not Implemented Yet
-- Grid mode is not implemented yet. Once I understand how it works a little more, I'll do something with it, I guess.\
+- Grid mode is not implemented yet. Once I understand how it works a little more, I'll do something with it, I guess.
 - I haven't tried this theme out on a screen resolution larger than 320x240. The theme's raw files are designed at 320x240 right now. I guarantee it will look like ass on a larger display. I may spruce it up in a future update.
 
 ## Suggested Settings
@@ -90,8 +97,9 @@ to say
 
 ## Screenshot-Friendly Detailed Screen
 ![MiniJawn 1.5 Screenshot Detailed List](https://i.imgur.com/fzkX2Gm.png "MiniJawn Detailed List")
+![MiniJawn 1.8 Screenshot Detailed Vertical List](https://i.imgur.com/Kxg6M1e.png "MiniJawn Detailed Vertical List")
 
-If you've scraped screenshots, this view is going to look great on the small screen. Edit line 15 of the `theme.xml` file from
+If you've scraped screenshots, this view is going to look great on the small screen. Edit line 16 of the `theme.xml` file from
 
 `<include>./detailed.xml</include>`
 
@@ -99,7 +107,15 @@ to say
 
 `<include>./detailed_more.xml</include>`
 
+or use 
+
+`<include>./detailed_more_vert.xml</include>`
+
+for a vertically-formatted list.
+
 ## Changelog
+1.8: Detailed Screenshot-Friendly Mode in Vertical mode, along with catching up with newly-supported consoles.
+
 1.5: Detailed Screenshot-Friendly Mode and Custom Collections added.
 
 1.2: Added a Full-Screen Option, as well as more consoles.

@@ -1,6 +1,6 @@
 <!--
 theme name:     MiniJawn
-version:        1.5
+version:        1.85
 author:         Cory Anotado
 email:          cory@pacdudegames.com
 website:        www.pacdudegames.com
@@ -12,7 +12,9 @@ license:        creative commons CC-BY-NC-SA
 	<include>./home.xml</include>
 	<!-- rename to home_full.xml for a full-screen homescreen experience. -->	
 	<!-- rename to detailed_more.xml for a screenshot-friendly detailed list. -->
+	<!-- rename to detailed_more_vert.xml for a screenshot-friendly vertical list. -->
 	<include>./detailed.xml</include>
+	<!-- rename to detailed_more_vert.xml for a screenshot-friendly vertical list. -->
 	<!-- rename to detailed_more.xml for a screenshot-friendly detailed list. -->
     <view name="basic">
         <image name="background" extra="true">
