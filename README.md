@@ -9,6 +9,11 @@ MiniJawn is a small theme I put together to have a nice-looking theme for my Ret
 ![MiniJawn 1.0 Collage](https://preview.redd.it/nq9uypzhsi531.png?width=960&crop=smart&auto=webp&s=e3635d75cbaab23a8ed079357b3e74b5e5a4600e "MiniJawn 1.0 Collage")
 
 ## Installation Instructions
+MiniJawn is available in the latest RetroPie-Setup installer. Update it or just the esthemes module, then select _pacdude / MiniJawn_ from the list.
+
+### Manual Installation
+If you'd like to install the theme manually, follow these instructions:
+
 SSH into your Pi, or exit Emulation Station to the command prompt. Type the following lines, one at a time:
 
 `cd /opt/retropie/configs/all/emulationstation/`
